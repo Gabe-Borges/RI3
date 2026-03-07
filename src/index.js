@@ -34,10 +34,10 @@ davi.telefones.add(new Telefone('12', '66666666'));
 davi.telefones.add(new Telefone('12', '66666666'));
 empresa.clientes.add(davi); 
 
-const endIsaque = new Endereco('SP', 'São José dos Campos', 'Rua das Flores', '123');
-const isaque = new Cliente('Isaque', '555.555.555-55', endIsaque);
-isaque.telefones.add(new Telefone('12', '55555555'));
-isaque.telefones.add(new Telefone('12', '55555555'));
-empresa.clientes.add(isaque); 
+const endRocky = new Endereco('PA', 'Philadelphia', 'kensington', '1977');
+const rocky = new Cliente('Rocky Balboa', '666.666.666-66', endRocky);
+rocky.telefones.add(new Telefone('12', '44444444'));
+rocky.telefones.add(new Telefone('12', '44444444'));
+empresa.clientes.add(rocky); 
 
 console.log(empresa.detalhe());
